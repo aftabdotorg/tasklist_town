@@ -31,8 +31,9 @@ body {
   outline: none;
 }
 
-#todoFrom input::placeholder{
-  color: white;
+#todoForm input::placeholder{
+  color: rgb(196, 188, 188);
+  text-align: center;
 }
 
 #todoForm button {
