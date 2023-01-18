@@ -1,0 +1,42 @@
+.list {
+  color: black;
+  background-color: wheat;
+  /* height: 2rem; */
+  margin: 20px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.list p {
+  /* border: 2px solid red; */
+  /* margin: auto; */
+  padding: 1rem;
+  /* margin: auto; */
+  position: relative;
+}
+
+.list p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: black;
+  font-size: 18px;
+}
+
+.list p input:focus{
+    outline: none;
+
+}

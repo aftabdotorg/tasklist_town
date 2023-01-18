@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: rgb(165, 130, 199);
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+  text-align: center;
+  background-color: #3f3160;
+  margin: 40px auto;
+  width: 400px;
+  min-height: 500px;
+  padding-bottom: 1rem;
+}
+
+.App h2{
+  color: whitesmoke;
+  padding-top: 1.5rem;
+}
+
+#todoForm input {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+}
+
+#todoFrom input::placeholder{
+  color: white;
+}
+
+#todoForm button {
+  height: 45px;
+  cursor: pointer;
+  font-weight: bolder;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  background-color: rgb(202, 156, 24);
+}
